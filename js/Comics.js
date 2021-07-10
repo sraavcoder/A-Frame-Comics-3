@@ -63,7 +63,7 @@ AFRAME.registerComponent("comics", {
         opacity: 1,
       });
   
-      entityEl.setAttribute("cursor-listener", {});
+      entityEl.setAttribute("click_events", {});
   
       return entityEl;
     },
